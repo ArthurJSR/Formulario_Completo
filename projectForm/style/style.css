@@ -24,8 +24,9 @@ body{
 }
 
 .header {
-    background-color:#ccc;
+    background-color:#eee;
     padding:20px;
+    text-align:center;
 }
 
 .form {
@@ -67,8 +68,8 @@ body{
 }
 
 .form button {
-    background-color: #fc00ff;
-    border:2px solid #fc00ff;
+    background-color: #FF0000;
+    border:2px solid #FF0000;
     color: #fff;
     font-size: 14px;
     width:100%;
