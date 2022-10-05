@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Criar uma nova conta</h2>
+        </div>
+
+        <form id="formbox" class="form">
+            <div class="form-control">
+                <label for="username">Nome de usuário</label>
+                <input 
+                    type="text" 
+                    id="usernamebox" 
+                    placeholder="Digite seu nome de usuário" />
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <i class="fa-solid fa-circle-check"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input 
+                    type="text" 
+                    id="emailbox" 
+                    placeholder="Digite seu email" />
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <i class="fa-solid fa-circle-check"></i>
+                <small>Mensagem de erro</small>
+
+            </div>
+
+            <div class="form-control">
+                <label for="password">Senha</label>
+                <input 
+                    type="password" 
+                    id="passwordbox" 
+                    placeholder="Digite sua senha" />
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <i class="fa-solid fa-circle-check"></i>
+                <small>Mensagem de erro</small>
+
+            </div>
+
+            <div class="form-control">
+                <label for="password-confirmation">Confirmação de senha</label>
+                <input 
+                    type="password" 
+                    id="password-confirmationbox" 
+                    placeholder="Digite a senha novamente" />
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <i class="fa-solid fa-circle-check"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+
+    </div>
+    <script src="./scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/f956a7b625.js" crossorigin="anonymous"></script>
+</body>
+</html>
